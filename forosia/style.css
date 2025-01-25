@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: garamond;
+  margin: 0;
+  background-color: #f1f1f1;
+  padding: 0px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 3.3rem;
+  text-align: center;
+  color: goldenrod;
+  font-style: italic;
+}
+
+.head {
+  background-image: url("../media/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  height: 650px;
+  width: 770px;
+  object-fit: cover;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 31%;
+  width: auto;
+  padding: 2%;
+  margin-top: -5%;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columns {
+  float: left;
+  width: 20%;
+}
+
+.columns2 {
+  float: left;
+  width: 32%;
+}
+
+.rows {
+  margin-top: 3px;
+}
+
+.demo,
+.demo2 {
+  width: 150px;
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover,
+.demo2:hover {
+  opacity: 1;
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.down {
+  background-color: white;
+  margin: 25px 40px;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.video {
+  flex: 50%;
+  -ms-flex: 50%;
+  margin: 2%;
+}
+
+.heading {
+  font-size: 35px;
+  color: #4caf50;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.disc {
+  flex: 32%;
+  -ms-flex: 32%;
+  margin: 4%;
+  text-align: center;
+}
+
+.disc p {
+  text-align: left;
+}
+
+.bold-txt {
+  font-weight: bold;
+}
+
+.disc h4 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  bottom: 0;
+  width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 65%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  padding-top: 6px;
+  font-size: 25px;
+}
+
+.fa-instagram {
+  color: #e4405f;
+  font-weight: 600;
+}
+
+.fa-instagram:hover {
+  color: #e86e84;
+}
+
+.fa-facebook-official {
+  color: #3b5998;
+  font-weight: 600;
+}
+
+.fa-facebook-official:hover {
+  color: #5277c5;
+}
+
+.location {
+  margin-top: 20px;
+  text-align: left;
+}
